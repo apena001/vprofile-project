@@ -33,7 +33,7 @@ pipeline {
 
 	stage('UNIT TEST'){
             steps {
-                sh 'meven1 test'
+                sh 'mvn test'
             }
         }
 
